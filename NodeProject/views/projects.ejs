@@ -1,0 +1,60 @@
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+<link href="app.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+      
+<div id="wrapper"> 
+    <br>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <h1 class="display-4">My <%= title %></h1>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="project1">
+                
+        <!-- article and aside to make divisions between text and image-->
+        <article> 
+            <aside class="aside">
+                <p><h5 style="font-size:1vw;">
+                    During my first year of university, one of our final projects was to develop an encryption program.
+                    The program began by prompting the user to enter as many text entries as they pleased, and each entry would be
+                    uniquely encrypted by one of six possible encryption methods.
+                    The program would encrypt each element 
+                    uniquely and store the results in a new encrypted list, which would finally be neatly displayed to the user.
+                </h5></p>
+            </aside>
+            
+            <!-- image of first project-->
+            <img src="Assets/images/encrypt.jpg" class="projectpic">  
+        </article>
+    </div> 
+
+    <br>
+
+    <!-- project 2 section works the same as project 1-->
+    <div id="project2">
+                
+        <article> 
+            <aside class="aside">
+                <p><h5 style="font-size:1vw;">
+                    Another coding project I completed was to create a 'Guess-the-Word' Game, which was major project with Python. 
+                    The user could customize setting and guess letters, and at the end of the turns, if you were able to guess the word correctly, 
+                    you were congratulated and asked if you wanted to play again. I recall working on this code to have been a fun experience, 
+                    while also teaching me some valuable coding strategies. 
+                </h5></p>
+            </aside>
+                    
+            <img src="Assets/images/code.jpg" class="projectpic">  
+        </article> 
+
+        <br>
+        <br>
+        <br>
+</div>
+
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>
+
