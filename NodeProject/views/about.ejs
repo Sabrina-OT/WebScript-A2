@@ -1,0 +1,49 @@
+<%- include partials/header.ejs %>
+<%- include partials/main_nav.ejs %>
+
+<link href="app.css" rel="stylesheet" type="text/css" media="only screen and (min-width:960px)">
+   
+<div id="wrapper"> 
+    <br>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+        <h1 class="display-4"><%= title %> Me</h1>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- displays the video on the page-->
+    <video id="video" width="320" height="240" controls autoplay muted preload="auto" loop>
+        <source src="Assets/videos/PortfolioVideo.mp4" type="video/mp4">
+    </video>
+
+    <br>
+
+    <!--this is the play pause button, similar to the one from lecture-->
+    <button onclick="playPause()">Play/Pause</button> 
+    <script src="Assets/Scripts/playpause.js"></script>
+
+    <div id="aboutme">
+        <!-- like project page, this uses an article and aside to display information-->
+        <article> 
+            <aside class="asideabout">
+                <p><h5 style="font-size:1vw;">
+                    I'm Sabrina Skoric, an undergraduate student at Ontario Tech Univeristy for Networking and IT Security.
+                    My programming experience began in highschool by learning languages such as Turing and Java, and has been drastically
+                    improved in university by learning Python, my most fluent language. Currently, I'm taking on a new challenge 
+                    by learning HTML and CSS.
+                </h5></p>
+            </aside>
+            <!--image goes to a class in css file which curves the edges-->
+            <img src="Assets/images/cropped.jpg" class="avatarimg">  
+        </article> 
+    </div>
+
+    <br>
+    <br>
+</div>
+
+<%- include partials/bottom_nav.ejs %>
+<%- include partials/footer.ejs %>
+

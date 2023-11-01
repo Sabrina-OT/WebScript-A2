@@ -1,0 +1,134 @@
+@charset "UTF-8"; /* custom body for tablet version */
+
+body /* custom body for desktop version */
+{ 
+    background: #0378A6; 
+    background: -moz-linear-gradient(top, #011C40 0%, #0378A6 100%); 
+    background: -webkit-linear-gradient(top, #011C40 0%, #0378A6 100%); 
+    background: -o-linear-gradient(top, #011C40 0%, #0378A6 100%); 
+    background: linear-gradient(to bottom, #011C40 0%,#0378A6 100%); 
+    font-family: Verdana, Geneva, Arial, sans-serif; 
+    background-color: black; 
+}
+
+#homefigure /* settings for figure on homepage */
+{
+    text-align: center;
+    margin: 40px;
+    padding:10px;
+    background-color: #ff8000;
+    border: 4px solid white;
+}
+
+.responsiveimg /* ensures images are responsive in this class*/
+{
+    width: 100%;
+    height: auto;
+}
+
+#welcome /* settings for text on homepage title*/
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace; 
+    color: #011C40;
+}
+
+#name /*more settings for text on homepage title */
+{
+    text-align: center;
+    font-size:40px;
+    font-family: 'Courier New', Courier, monospace; 
+    color: #011C40;
+    word-spacing: 15px;
+    font-weight: bolder;
+}
+
+video /* settings for video in about section*/
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 30%;
+    background-color:black; 
+    border:5px white solid; 
+    box-shadow: 10px 10px 5px black; 
+}
+
+button /* setting for play/pause button for the video*/
+{ 
+    background-color:black; 
+    color:white; 
+    height:40px; 
+    border:2px white solid; 
+    border-radius: 5px; 
+} 
+
+.projectpic /* specification for images on project page*/
+{
+    display: block;
+    width: 30%;
+    padding:8px;
+    margin:24px;
+    background-color: #ff8000;
+}
+
+
+.avatarimg /* settings for image of me on about page*/
+{
+    display: block;
+    width: 32%;
+    padding:1%;
+    margin:5%;
+    border-radius: 35%;
+}
+
+.aside /* settings for aside sections on project page*/
+{ 
+    background-color: beige; 
+    float: right; 
+    width: 50%;
+    height: auto; 
+    margin:5%;
+    padding: 1%; 
+    text-size-adjust: auto;
+} 
+
+.asideabout /* settings for asice section on about me page*/
+{ 
+    background-color: beige; 
+    float: right; 
+    width: 50%;
+    height: auto; 
+    margin:2%;
+    padding: 1%; 
+    text-size-adjust: auto; 
+} 
+
+
+.left /*ensures images are left justified */
+{
+    display: block;
+    float:left;
+    width: 40%;
+}
+#wrapper /* settings for wrapper */
+{
+    width:75%;
+    margin-left: auto; 
+    margin-right: auto; 
+    background-color:#75b9db ; 
+} 
+  
+    
+/* Defining a style for a set of tags separated by commas applies the style to all tags */ 
+h1,h2,h3,h4,h5,h6,p,li 
+{ 
+    margin-left:15px; 
+} 
+
+/* This clear class style terminates float */ 
+.clear
+{ 
+    clear: both; 
+} 
